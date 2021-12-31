@@ -1,0 +1,53 @@
+h1, h2, h3, h4, h5, h6, p, li {
+    font-family: "Gravity-Regular";
+}
+
+.socials li a img {
+    padding: 5px;
+    height: 50px;
+}
+
+.lbl {
+    padding: 10px 0;
+} 
+
+input {
+    background: none;
+    border: none;
+    outline: none;
+    text-transform: uppercase;
+    color: #ddd;
+    width: 100%;
+    padding: 10px 0;
+    border-bottom: 1px solid #666;
+}
+
+input::placeholder {
+    color: #666;
+}
+
+input:focus {
+    border-bottom-color: #ddd;
+}
+
+textarea {
+    background: none;
+    border: none;
+}
+
+.btn {
+    margin: auto;
+    width: 100%;
+}
+
+.btn button {
+    background: none;
+    border: none;
+    color: #ea1d6f;
+    cursor: pointer;
+    outline: none;
+}
+
+.btn:hover {
+    color: #b9134f;
+}
