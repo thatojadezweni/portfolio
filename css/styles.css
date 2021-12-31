@@ -1,5 +1,19 @@
+@font-face {
+    font-family: "Gravity-Regular";
+    src: url('../assets/fonts/Gravity-Regular.otf');
+}
+
+@font-face {
+    font-family: "Gravity-Bold";
+    src: url('../assets/fonts/Gravity-Bold.otf');
+}
+
 h1, h2, h3, h4, h5, h6, p, li {
     font-family: "Gravity-Regular";
+}
+
+p .h1, p .h2 {
+    font-family: "Gravity-Book";
 }
 
 .socials li a img {
