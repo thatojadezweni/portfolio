@@ -48,6 +48,6 @@ textarea {
     outline: none;
 }
 
-.btn:hover {
+.btn button:hover {
     color: #b9134f;
 }
